@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+ 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Blog</h1>
+    </header>
+
+    <section id="list" class="post">
+        <h2>Day to day</h2>
+        <form id="entry">
+        <label for="post_entry">what do:</label>
+        <input type="text" id="title" placeholder="title" required>
+        <input type="text" id="item" placeholder="event" required>
+        <input type="text" id="user" placeholder="user" required>
+        <button type="submit" id="submit">Post</button>
+        
+    </form>
+    <section id="post_list"></section>
+    </section>
+
+<script src="app.js"></script>
+</body>
+</html>

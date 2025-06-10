@@ -1,0 +1,61 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    align-items: center;
+    justify-content: center;
+}
+
+.post_list {
+    display: flexbox;
+}
+
+#entry {
+    justify-items: center;
+}
+
+.post {
+    justify-content: center;
+    justify-items: center;
+}
+
+#submit {
+    display: block;
+    margin-top: 1rem;
+}
+
+#title {
+    display: block;
+}
+
+#item {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 3rem;
+}
+
+.item {
+    display: block;
+}
+
+.date {
+    display: block;
+}
+
+.post_list {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.item {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.date {
+    margin-top: 1rem;
+}
